@@ -16,7 +16,7 @@ const db = mysql.createPool({
   charset: "utf8mb4_general_ci",
   waitForConnections: true,
   connectTimeout: 30000,
-  connectionLimit: 300,
+  connectionLimit: 100,
   idleTimeout: 60000,
 });
 
